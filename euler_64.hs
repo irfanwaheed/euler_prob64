@@ -2,7 +2,7 @@ import Math.NumberTheory.Powers.Squares
 import Data.List
 import Data.Maybe
 
-dlist =[ x | x <- [2..100], isSquare(x) == False]
+dlist =[ x | x <- [2..1000], isSquare(x) == False]
 
 whileLoop:: Integer->Integer->Integer
 whileLoop  d y =
